@@ -2,7 +2,7 @@
   "name": "react-ci",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iehoo.cn",
+  "homepage": "https://iehoo.cn/react-ci",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
