@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get install -y nginx
 
 # 将构建的资源拷贝到 ngxin
-COPY build/ /var/www/html
+COPY ./build/ /var/www/html
 
 # 以前台方式启动 nginx
 CMD ["nginx", "-g", "daemon off;"]
